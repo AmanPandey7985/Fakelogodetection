@@ -1,0 +1,34 @@
+*{
+  margin : 0;
+  padding:0;
+  box-sizing: border-box;
+}
+::-webkit-scrollbar { display: none !important; }
+:root{
+  --primary-color:#f9f9f9;
+  --secondary-color : #222222;
+  --accent-color:#B53836;
+  --off-primary-color:#dfdfdf;
+}
+html{
+  width: 100%;
+  min-height: 100vh;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 16pt;
+}
+body{
+  width: 100%;
+  min-height: 100%;
+  background-color: var(--primary-color);
+}
+
+.bold{
+  font-weight: 700;
+}
+.medium{
+  font-weight: 500;
+}
+a{
+  text-decoration: none;
+}
